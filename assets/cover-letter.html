@@ -17,21 +17,21 @@
         <meta name="author" content="Md. Siful Islam, Desiver Web">
         
         <!-- FAVICON -->
-        <link rel="icon" href="assets/images/favicon.ico">
-        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-icon-76x76.html">
-        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-icon-114x114.png">
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.html">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
 
         <!-- ========================================
                 Stylesheets
         ==========================================--> 
         
         <!-- MATERIALIZE CORE CSS -->
-        <link href="assets/css/materialize.min.css" rel="stylesheet">
+        <link href="css/materialize.min.css" rel="stylesheet">
         
 
         <!-- ADDITIONAL CSS -->
-        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="css/animate.css">
         
 
         <!-- FONTS -->
@@ -39,28 +39,28 @@
         
 
         <!--FONTAWESOME CSS-->
-        <link href="assets/icons/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
+        <link href="icons/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> 
         
 
         <!-- CUSTOM STYLE -->
-        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         
 
         <!-- RESPONSIVE CSS-->
-        <link href="assets/css/responsive.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
 
         <!-- COLORS -->        
-        <link rel="alternate stylesheet" href="assets/css/colors/red.css" title="red">
-        <link rel="alternate stylesheet" href="assets/css/colors/purple.css" title="purple">
-        <link rel="alternate stylesheet" href="assets/css/colors/orange.css" title="orange">
-        <link rel="alternate stylesheet" href="assets/css/colors/green.css" title="green">
-        <link rel="stylesheet" href="assets/css/colors/lime.css" title="lime">
+        <link rel="alternate stylesheet" href="css/colors/red.css" title="red">
+        <link rel="alternate stylesheet" href="css/colors/purple.css" title="purple">
+        <link rel="alternate stylesheet" href="css/colors/orange.css" title="orange">
+        <link rel="alternate stylesheet" href="css/colors/green.css" title="green">
+        <link rel="stylesheet" href="css/colors/lime.css" title="lime">
 
         
         <!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO -->
-        <link rel="stylesheet" href="assets/css/demo.css">
+        <link rel="stylesheet" href="css/demo.css">
         
-        <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif] -->
+        <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif] -->
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -86,7 +86,7 @@
                                       IMAGE   
                             ==========================-->
                             <div class="feature-img">
-                                <a href="index.php?page=page/home"><img src="assets/images/profile-img.jpg" class="responsive-img" alt=""></a> 
+                                <a href="../index.html"><img src="images/profile-img.jpg" class="responsive-img" alt=""></a> 
                             </div>                            
                             <!-- =========================================
                                        NAVIGATION   
@@ -95,8 +95,8 @@
                                 <nav>
                                     <div class="nav-wrapper">
                                       <ul id="nav-mobile" class="side-nav">                                  
-                                        <li><a href="index.php?page=page/home">Resume</a></li>
-                                        <li><a href="index.php?page=page/cover-letter">Cover Letter</a></li>
+                                        <li><a href="../index.html">Resume</a></li>
+                                        <li><a href="cover-letter.html">Cover Letter</a></li>
                                       </ul>
                                       <a href="#" data-activates="nav-mobile" class="button-collapse  "><i class="mdi-navigation-menu"></i></a>
                                     </div>
@@ -226,43 +226,94 @@
                     </div>   <!-- end row -->
                 </aside><!-- end sidebar -->
 
-        <?php 
-            if(isset($_GET['page'])){
-                require $_GET['page'].'.php';
-            } else{
-                require 'page/home.php';
-            }
-        ?>
+         <section class="col s12 m12 l8 section" id="section">
+                    <div class="cover-latter z-depth-1">
+                        <div class="cover-title">
+                            <span>20 February 2017</span>
+                            <h2>On Thai Hung</h2>
+                            <p>
+                                140/6 Le Duc Tho Street - Ward 6<br>
+                                Go Vap District <br>
+                                Ho Chi Minh City
+                            </p>
+                        </div>
+                        <h4 class="cover-title">Dear Sir/Madam</h4>
+                        <p>I am writing to you to apply for the PHP programmer position that I was recommended from your colleague.</p>
+
+                        <p>As you can see from my CV page, I am currently a Sophomore at Aptech International Information Technology Education System, majoring in Information Technology. I am also a Junior at Tran Dai Nghia University with the same major. Therefore, my English is quite good to read book and interact with native speakers, my foreign friends and as well.</p>
+                        
+                        <p>In addition, I took part in lots of English activities in another University. The result is that I intended and won Second place in Young Debate Championship celebrated by Vietnamese-German University 2015. Moreover, I joined in Aptech Apkathon to making some thing "cool" and achieved the UI/UX design. Having experiences when work in team and in activitive environment. I know how to make handle my part of work and control self-pressure.</p>
+                        
+                        <p>Working for your company is my important target. I found this is a good chance for me to improve my working skills, my English as well as gaining experience from such a dynamic and professional working environment. A little thing is that I have an opportunity to be financially independent from my family. I would try my best to dedicate my knowledge, my enthusiasm when working in your company.</p>
+
+                        <p>Thank you for taking the time to consider my application and I am looking forward to hearing from you in the near future.</p>
+                        <div class="cover-title">
+                            <p>Your Sincerely</p>
+                        </div>
+                        <div class="signature">
+                            <!-- <img src="images/sig.png" alt="" class="img-responsive"></img>                            -->
+                            <h4>On Thai Hung</h4>
+                            <h5> Programmer </h5>                          
+                        </div>
+                    </div>
+                <!-- =========================================
+                   Refference 
+                ==========================================-->
+                    <!-- <div class="section-wrapper refarances z-depth-1">
+                        <div class="row"> 
+                            <div class="section-icon col s12 m12 l2">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <div class="custom-content col s12 m12 l10 wow fadeIn a1" data-wow-delay="0.1s">
+                                <h2>Refarances</h2>
+
+                                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                                    <h3>Hasin Hayder</h3>
+                                    <span>Head of Ideas, Themebucket </span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+
+                                <div class="custom-content-wrapper wow fadeIn a3" data-wow-delay="0.3s" >
+                                    <h3>Mizanur Rahman</h3>
+                                    <span>Founder & CEO, Template Ocean</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </section>
+            </div><!-- end row -->
+        </div> <!-- end container -->
         
  <!--=====================
                 JavaScript
         ===================== -->
         <!-- Jquery core js-->
-        <script src="assets/js/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
         
         <!-- materialize js-->
-        <script src="assets/js/materialize.min.js"></script>
+        <script src="js/materialize.min.js"></script>
         
         <!-- wow js-->
-        <script src="assets/js/wow.min.js"></script>
+        <script src="js/wow.min.js"></script>
         
         <!-- Map api -->
         <script src="http://maps.googleapis.com/maps/api/js?v=3.exp"></script>
         
         <!-- Masonry js-->
-        <script src="assets/js/masonry.pkgd.js"></script>
+        <script src="js/masonry.pkgd.js"></script>
 
-        <script src="assets/js/validator.min.js"></script>
+        <script src="js/validator.min.js"></script>
         
         <!-- Customized js -->
-        <script src="assets/js/init.js"></script>
+        <script src="js/init.js"></script>
     
         <!-- =========================================================
             STYLE SWITCHER | ONLY FOR DEMO NOT INCLUDED IN MAIN FILES
         ===========================================================-->
         
         <!-- Style switter js -->
-        <script src="assets/js/styleswitcher.js"></script>
+        <script src="js/styleswitcher.js"></script>
         
         <div class="cv-style-switch" id="switch-style">
             <a id="toggle-switcher" class="switch-button icon_tools"> <i class="fa fa-cogs"></i></a>
